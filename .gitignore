@@ -1,0 +1,8 @@
+
+.classpath
+.project
+bin/org/lessons/java/inheritance/shop/Main.class
+bin/org/lessons/java/inheritance/shop/Cuffie.class
+bin/org/lessons/java/inheritance/shop/Prodotto.class
+bin/org/lessons/java/inheritance/shop/Smartphone.class
+bin/org/lessons/java/inheritance/shop/Televisori.class
