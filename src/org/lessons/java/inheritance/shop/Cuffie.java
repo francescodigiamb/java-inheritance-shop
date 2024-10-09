@@ -5,7 +5,7 @@ public class Cuffie extends Prodotto {
 	private String colore;
 	private boolean wireless;
 
-	public Cuffie (String nome, String marca, double prezzo, String colore, boolean wireless) {
+	public Cuffie (String nome, String marca, double prezzo, boolean wireless) {
 		super (nome, marca, prezzo);
 		this.colore = colore;
 		this.wireless = wireless;
@@ -14,7 +14,7 @@ public class Cuffie extends Prodotto {
 	public String getColore () {
 		return colore;
 	}
-	public void setColore () {
+	public void setColore (String colore) {
 		this.colore = colore;
 	}
 }

@@ -31,7 +31,7 @@ public class Smartphone extends Prodotto{
 	public int setMemoria () {
 		return memoria;
 	}
-	public void getMemoria () {
+	public void getMemoria (int memoria) {
 		this.memoria = memoria;
 	}
 	

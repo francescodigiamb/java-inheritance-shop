@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		//Proviamo la tv
-		Televisori tv = new Televisori ("TV 40 pollici ","Hisense", 490, true );
-		
+		Televisori tv = new Televisori ("SmartTV ","Hisense", 490, "40 pollici", true );
 		System.out.println("La Tv selezionata è: " + tv.getNome() + tv.getMarca());
+		System.out.println("La sua dimensione è: " + tv.getDimensioni());
 		System.out.println("Il suo codice è: " + tv.getCodice());
 		System.out.println("Il suo prezzo è: " + tv.getPrezzo());
 		
@@ -23,8 +23,8 @@ public class Main {
 		System.out.println();
 		
 		//Proviamo le cuffie
-		Cuffie cuffie = new Cuffie ("AirPods", "Apple", 130, "bianco", true);
-		
+		Cuffie cuffie = new Cuffie ("AirPods", "Apple", 130, true);
+		cuffie.setColore("Bianche");
 		System.out.println("Le Cuffie selezionate sono: " + cuffie.getNome() + "-" + cuffie.getMarca());
 		System.out.println("Il loro prezzo è di: " + cuffie.getPrezzo());
 		System.out.println("Il loro colore è: " + cuffie.getColore());
