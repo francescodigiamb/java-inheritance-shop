@@ -11,7 +11,7 @@ public class Prodotto {
 	private double iva;
 	
     public Prodotto( String nome, String marca, double prezzo) {
-        this.codice = codice;
+        this.codice = getCodice();
         this.nome = nome;
         this.marca = marca;
         this.prezzo = prezzo;
