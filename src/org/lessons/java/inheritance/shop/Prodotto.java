@@ -28,15 +28,11 @@ public class Prodotto {
 	public String getNome() {
 		return nome;
 	}
-	public void setNome() {
-		this.nome = nome;
-	}
+
 	public String getMarca(){
 		return marca;
 	}
-	public void setMarca() {
-		this.marca = marca;
-	}
+
 	public double getPrezzo() {
 		return prezzo * iva;
 	}

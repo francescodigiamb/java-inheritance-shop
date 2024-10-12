@@ -20,6 +20,10 @@ public class Televisori extends Prodotto {
 		return smart;
 	}
 
+    @Override
+    public String toString() {
+        return "Televisione : " + getNome() + " Marca: " + getMarca() + ", Prezzo: " + getPrezzo() + "€";
+    }
 	
 	
 }

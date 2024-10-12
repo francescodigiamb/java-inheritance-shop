@@ -34,5 +34,9 @@ public class Smartphone extends Prodotto{
 	public void setMemoria (int memoria) {
 		this.memoria = memoria;
 	}
+    @Override
+    public String toString() {
+        return "Smartphone: " + getNome() + " Marca: " + getMarca() + ", Prezzo: " + getPrezzo() + "€";
+    }
 	
 }

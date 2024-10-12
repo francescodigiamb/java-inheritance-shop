@@ -7,7 +7,6 @@ public class Cuffie extends Prodotto {
 
 	public Cuffie (String nome, String marca, double prezzo, boolean wireless) {
 		super (nome, marca, prezzo);
-		this.colore = colore;
 		this.wireless = wireless;
 	}
 	
@@ -17,4 +16,12 @@ public class Cuffie extends Prodotto {
 	public void setColore (String colore) {
 		this.colore = colore;
 	}
+
+	public boolean isWireless() {
+		return wireless;
+	}
+    @Override
+    public String toString() {
+        return "Cuffie: " + getNome() + " Marca: " + getMarca() + ", Prezzo: " + getPrezzo() + "€";
+    }
 }
