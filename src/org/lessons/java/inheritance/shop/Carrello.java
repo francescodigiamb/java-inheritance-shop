@@ -55,7 +55,7 @@ public class Carrello {
         }
     }
 		
-        System.out.println("\nRiepilogo del carrello:");
+        System.out.println("Riepilogo del carrello:");
         for (Prodotto prodotto : carrello) {
             System.out.println(prodotto); 
         }
